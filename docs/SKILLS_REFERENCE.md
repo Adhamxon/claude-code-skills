@@ -1,6 +1,6 @@
 # Skills Reference — Complete Catalog
 
-All 72 skills are organized into categories. Each skill lives in `.claude/skills/<name>/SKILL.md` and is auto-discovered by Claude Code.
+All 258 skills are organized into categories. Each skill lives in `.claude/skills/<name>/SKILL.md` and is auto-discovered by Claude Code.
 
 ---
 

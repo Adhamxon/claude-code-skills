@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Ready-6C47FF)](https://docs.anthropic.com/en/docs/claude-code/overview)
 
-**72 skills + 5 agents for Claude Code.** Drop the `.claude/` folder into any project and your terminal AI instantly gains expert capabilities — code review, TDD, architecture design, security auditing, document generation, deployment, and more.
+**258 skills + 5 agents for Claude Code.** Drop the `.claude/` folder into any project and your terminal AI instantly gains expert capabilities — code review, TDD, architecture design, security auditing, document generation, deployment, and more.
 
 Built from the best of Anthropic's official skills, Matt Pocock's engineering workflows, Addy Osmani's agent skills, HuggingFace ML/AI, and curated tools. No config. No setup. Just `claude` and go.
 
@@ -13,7 +13,7 @@ Built from the best of Anthropic's official skills, Matt Pocock's engineering wo
 
 Claude Code is already powerful out of the box. But skills and agents turn it into a **specialized toolchain**. Want a security audit? The `security-auditor` agent loads with OWASP expertise. Building a feature? `matt-tdd` runs the red-green-refactor cycle. Deploying to Vercel? The `vercel-deploy` skill handles configuration.
 
-This collection packages 72 ready-to-use skills and 5 agent personas so you don't have to write them yourself.
+This collection packages 258 ready-to-use skills and 5 agent personas so you don't have to write them yourself.
 
 ---
 
@@ -24,7 +24,7 @@ Claude Code auto-discovers `.claude/` in your project root. Every session, it sc
 ```
 .claude/
 ├── agents/              # 5 agent personas (.md files)
-└── skills/              # 72 skill definitions (SKILL.md files)
+└── skills/              # 258 skill definitions (SKILL.md files)
 ```
 
 **Skills** are injected into context when your task matches their trigger conditions. Ask about PDF generation and the `pdf` skill loads automatically. Request a code review and `matt-code-review` activates.
@@ -82,6 +82,21 @@ That's it. Claude Code loads everything automatically. Start asking questions.
 
 ### Awesome LLM Agent Skills (5) ⭐ NEW
 `commit-archaeologist` · `project-graveyard` · `scope-creep-detector` · `thinking-out-loud` · `advisor-orchestrator-worker`
+
+### Wondelai Engineering Skills (20) ⭐⭐ NEW
+`clean-architecture` · `clean-code` · `domain-driven-design` · `pragmatic-programmer` · `software-design-philosophy` · `refactoring-patterns` · `refactoring-ui` · `working-with-legacy-code` · `ddia-systems` · `high-perf-browser` · `system-design` · `team-topologies` · `release-it` · `design-code-architecture` · `remove-technical-debt` · `improve-code-quality` · `microinteractions` · `ios-hig-design` · `web-typography` · `ux-heuristics`
+
+### Project Management Skills (30) ⭐⭐ NEW
+`brainstorm-okrs` · `create-prd` · `sprint-plan` · `retro` · `user-stories` · `test-scenarios` · `pre-mortem` · `prioritization-frameworks` · `outcome-roadmap` · `stakeholder-map` · `strategy-red-team` · `release-notes` · `business-model` · `lean-canvas` · `product-strategy` · `product-vision` · `value-proposition` · `swot-analysis` · `porters-five-forces` · `pricing-strategy` · `competitor-analysis` · `customer-journey-map` · `market-sizing` · `user-personas` · `interview-script` · `metrics-dashboard` · `gtm-strategy` · `competitive-battlecard` · `sql-queries` · `cohort-analysis`
+
+### Web & Framework Skills (30) ⭐⭐ NEW
+`tanstack-query-expert` · `trpc-fullstack` · `zod-validation-expert` · `vitest-skill` · `sveltekit` · `typescript-advanced-types` · `supabase-postgres-best-practices` · `tailwind-patterns` · `turborepo-caching` · `uv-package-manager` · `threejs-fundamentals` · `zustand-store-ts` · `ui-component` · `ui-a11y` · `vercel-ai-sdk-expert` · `using-git-worktrees` · `workflow-automation` · `systematic-debugging` · `verification-before-completion` · `writing-great-skills`
+
+### Security Skills (25) ⭐⭐ NEW
+`testing-api-security-with-owasp-top-10` · `testing-cors-misconfiguration` · `testing-for-xss-vulnerabilities` · `testing-for-json-web-token-vulnerabilities` · `testing-for-sql-injection` · `testing-api-authentication-weaknesses` · `testing-for-broken-access-control` · `testing-oauth2-implementation-flaws` · `testing-prompt-injection-in-rag-pipelines` · `testing-websocket-api-security` · `testing-for-xxe-injection-vulnerabilities` · `securing-aws-iam-permissions` · `securing-github-actions-workflows` · `securing-serverless-functions` · `securing-api-gateway-with-aws-waf` · `remediating-s3-bucket-misconfiguration` · `scanning-docker-images-with-trivy` · `scanning-kubernetes-manifests-with-kubesec` · `performing-ssl-tls-security-assessment` · `performing-docker-bench-security-assessment`
+
+### iOS & Swift Skills (8) ⭐⭐ NEW
+`swift-concurrency-expert` · `swiftui-liquid-glass` · `swiftui-performance-audit` · `swiftui-ui-patterns` · `swiftui-view-refactor` · `ios-debugger-agent` · `app-store-changelog` · `bug-hunt-swarm`
 
 Full details in [docs/SKILLS_REFERENCE.md](docs/SKILLS_REFERENCE.md).
 
@@ -148,7 +163,7 @@ claude -p "vercel-deploy: configure production deployment"
 Claude_Code_Skills/
 ├── .claude/
 │   ├── agents/              # 5 agent .md files
-│   └── skills/              # 72 skill folders
+│   └── skills/              # 258 skill folders
 ├── docs/
 │   ├── GETTING_STARTED.md
 │   └── SKILLS_REFERENCE.md
