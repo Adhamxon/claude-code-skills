@@ -219,7 +219,7 @@ MIT — free for personal and commercial use. See [LICENSE](LICENSE).
 - [Addy Osmani](https://github.com/addyosmani) — Agent development patterns
 - [Google Cloud](https://cloud.google.com) — Cloud product skills
 - [HuggingFace](https://huggingface.co) — ML/AI training tools
-- [Awesome GitHub Copilot](https://github.com/awesome-github-copilot) — Community skills
+- [Awesome GitHub Copilot](https://github.com/copilot) — Community skills
 - [Wondelai](https://github.com/wondelai) — Book-based engineering skills
 
 ---
