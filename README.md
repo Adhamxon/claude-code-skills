@@ -3,9 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Ready-6C47FF)](https://docs.anthropic.com/en/docs/claude-code/overview)
 
-**30 skills + 5 agents for Claude Code.** Drop the `.claude/` folder into any project and your terminal AI instantly gains expert capabilities — code review, TDD, architecture design, security auditing, document generation, deployment, and more.
+**72 skills + 5 agents for Claude Code.** Drop the `.claude/` folder into any project and your terminal AI instantly gains expert capabilities — code review, TDD, architecture design, security auditing, document generation, deployment, and more.
 
-Built from the best of Anthropic's official skills, Matt Pocock's engineering workflows, and curated tools. No config. No setup. Just `claude` and go.
+Built from the best of Anthropic's official skills, Matt Pocock's engineering workflows, Addy Osmani's agent skills, HuggingFace ML/AI, and curated tools. No config. No setup. Just `claude` and go.
 
 ---
 
@@ -23,8 +23,8 @@ Claude Code auto-discovers `.claude/` in your project root. Every session, it sc
 
 ```
 .claude/
-├── agents/          # 5 agent personas (.md files)
-└── skills/          # 30 skill definitions (SKILL.md files)
+├── agents/              # 5 agent personas (.md files)
+└── skills/              # 72 skill definitions (SKILL.md files)
 ```
 
 **Skills** are injected into context when your task matches their trigger conditions. Ask about PDF generation and the `pdf` skill loads automatically. Request a code review and `matt-code-review` activates.
@@ -59,6 +59,9 @@ That's it. Claude Code loads everything automatically. Start asking questions.
 ### Matt Pocock Engineering (10)
 `matt-code-review` · `matt-tdd` · `matt-diagnosing-bugs` · `matt-domain-modeling` · `matt-implement` · `matt-research` · `matt-prototype` · `matt-codebase-design` · `matt-writing-great-skills` · `matt-teach`
 
+### Addy Osmani Agent Skills (24) ⭐ NEW
+`spec-driven-development` · `code-simplification` · `debugging-and-error-recovery` · `security-and-hardening` · `ci-cd-and-automation` · `incremental-implementation` · `planning-and-task-breakdown` · `frontend-ui-engineering` · `context-engineering` · `git-workflow-and-versioning` · `source-driven-development` · `shipping-and-launch` · `documentation-and-adrs` · `api-and-interface-design` · `doubt-driven-development` · `deprecation-and-migration` · `browser-testing-with-devtools` · `code-review-and-quality` · `observability-and-instrumentation` · `idea-refine` · `interview-me` · `using-agent-skills` · `performance-optimization` · `testing-strategies`
+
 ### Productivity & Handoff (1)
 `matt-handoff`
 
@@ -67,6 +70,18 @@ That's it. Claude Code loads everything automatically. Start asking questions.
 
 ### Curated Tools (5)
 `cli-creator` · `playwright` · `vercel-deploy` · `netlify-deploy` · `security-best-practices`
+
+### Custom Enhanced Skills (10) ⭐ NEW
+`ai-ml-engineering` · `api-design-best-practices` · `auth-authorization` · `database-optimization` · `message-queues` · `mobile-development` · `observability` · `system-design` · `web-accessibility` · `performance-optimization`
+
+### HuggingFace ML/AI Skills (3) ⭐ NEW
+`trl-training` · `transformers-js` · `train-sentence-transformers`
+
+### Karpathy Guidelines (1) ⭐ NEW
+`karpathy-guidelines`
+
+### Awesome LLM Agent Skills (5) ⭐ NEW
+`commit-archaeologist` · `project-graveyard` · `scope-creep-detector` · `thinking-out-loud` · `advisor-orchestrator-worker`
 
 Full details in [docs/SKILLS_REFERENCE.md](docs/SKILLS_REFERENCE.md).
 
@@ -133,7 +148,7 @@ claude -p "vercel-deploy: configure production deployment"
 Claude_Code_Skills/
 ├── .claude/
 │   ├── agents/              # 5 agent .md files
-│   └── skills/              # 30 skill folders
+│   └── skills/              # 72 skill folders
 ├── docs/
 │   ├── GETTING_STARTED.md
 │   └── SKILLS_REFERENCE.md
