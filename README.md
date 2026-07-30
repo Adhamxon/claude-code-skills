@@ -13,7 +13,7 @@ Built from the best of Anthropic's official skills, Matt Pocock's engineering wo
 
 Claude Code is already powerful out of the box. But skills and agents turn it into a **specialized toolchain**. Want a security audit? The `security-auditor` agent loads with OWASP expertise. Building a feature? `matt-tdd` runs the red-green-refactor cycle. Deploying to Vercel? The `vercel-deploy` skill handles configuration.
 
-This collection packages 30 ready-to-use skills and 5 agent personas so you don't have to write them yourself.
+This collection packages 72 ready-to-use skills and 5 agent personas so you don't have to write them yourself.
 
 ---
 
@@ -59,8 +59,8 @@ That's it. Claude Code loads everything automatically. Start asking questions.
 ### Matt Pocock Engineering (10)
 `matt-code-review` · `matt-tdd` · `matt-diagnosing-bugs` · `matt-domain-modeling` · `matt-implement` · `matt-research` · `matt-prototype` · `matt-codebase-design` · `matt-writing-great-skills` · `matt-teach`
 
-### Addy Osmani Agent Skills (24) ⭐ NEW
-`spec-driven-development` · `code-simplification` · `debugging-and-error-recovery` · `security-and-hardening` · `ci-cd-and-automation` · `incremental-implementation` · `planning-and-task-breakdown` · `frontend-ui-engineering` · `context-engineering` · `git-workflow-and-versioning` · `source-driven-development` · `shipping-and-launch` · `documentation-and-adrs` · `api-and-interface-design` · `doubt-driven-development` · `deprecation-and-migration` · `browser-testing-with-devtools` · `code-review-and-quality` · `observability-and-instrumentation` · `idea-refine` · `interview-me` · `using-agent-skills` · `performance-optimization` · `testing-strategies`
+### Addy Osmani Agent Skills (22) ⭐ NEW
+`spec-driven-development` · `code-simplification` · `debugging-and-error-recovery` · `security-and-hardening` · `ci-cd-and-automation` · `incremental-implementation` · `planning-and-task-breakdown` · `frontend-ui-engineering` · `context-engineering` · `git-workflow-and-versioning` · `source-driven-development` · `shipping-and-launch` · `documentation-and-adrs` · `api-and-interface-design` · `doubt-driven-development` · `deprecation-and-migration` · `browser-testing-with-devtools` · `code-review-and-quality` · `observability-and-instrumentation` · `idea-refine` · `interview-me` · `using-agent-skills`
 
 ### Productivity & Handoff (1)
 `matt-handoff`
@@ -71,8 +71,8 @@ That's it. Claude Code loads everything automatically. Start asking questions.
 ### Curated Tools (5)
 `cli-creator` · `playwright` · `vercel-deploy` · `netlify-deploy` · `security-best-practices`
 
-### Custom Enhanced Skills (10) ⭐ NEW
-`ai-ml-engineering` · `api-design-best-practices` · `auth-authorization` · `database-optimization` · `message-queues` · `mobile-development` · `observability` · `system-design` · `web-accessibility` · `performance-optimization`
+### Custom Enhanced Skills (11) ⭐ NEW
+`ai-ml-engineering` · `api-design-best-practices` · `auth-authorization` · `database-optimization` · `message-queues` · `mobile-development` · `observability` · `performance-optimization` · `system-design` · `testing-strategies` · `web-accessibility`
 
 ### HuggingFace ML/AI Skills (3) ⭐ NEW
 `trl-training` · `transformers-js` · `train-sentence-transformers`

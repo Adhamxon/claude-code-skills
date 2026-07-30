@@ -1,6 +1,6 @@
 # Getting Started with Claude Code & This Skill Collection
 
-So you've got Claude Code installed and you want to supercharge it with 30 purpose-built skills and 5 specialized agents. You're in the right place.
+So you've got Claude Code installed and you want to supercharge it with 72 purpose-built skills and 5 specialized agents. You're in the right place.
 
 ## What is Claude Code?
 
